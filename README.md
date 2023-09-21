@@ -1,7 +1,8 @@
 # http_checker
 
 INSTALLATION<br />
-git clone  https://github.com/Elvision2009/http_checker/http_checker.sh<br />
+git clone  https://github.com/Elvision2009/http_checker<br />
+cd http_checker<br />
 chmod +x http_checker.sh<br />
 <br />
 USAGE<br />
