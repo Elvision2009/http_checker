@@ -1,18 +1,18 @@
 # http_checker
 
-INSTALL
-git clone  https://github.com/Elvision2009/http_checker/http_checker.sh
-chmod +x http_checker.sh
-
-USAGE
-		This program check HTTP links and give response codes
+INSTALLATION<br />
+git clone  https://github.com/Elvision2009/http_checker/http_checker.sh<br />
+chmod +x http_checker.sh<br />
+<br />
+USAGE<br />
+		This program check HTTP links and give response codes<br />
+  
 		    Param:    Example:                Description
-		    
-        -f	      -f input_file.txt	      Choose file with links for check"
-		    -m	      -m 200,301		          Choose status codes for match"
-		    -o      	-o output_file.txt	    Choose output file"
- 		    -c	      -c			                Checked links only. Without status codes"
-		    -h	      -h			                This help"
+		    -f	      -f input_file.txt	      Choose file with links for check"
+		    -m	      -m 200,301	      Choose status codes for match"
+		    -o        -o output_file.txt      Choose output file"
+ 		    -c	      -c		      Checked links only. Without status codes"
+		    -h	      -h		      This help"
 		    
         Example:
 		    ./checker.sh -f input.txt -o output.txt -m 200,301 -c"
