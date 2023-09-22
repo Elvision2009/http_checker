@@ -9,9 +9,7 @@ then
 	do
 		case "$1" in
 		-f) file="$2"
-		cat $file | grep -Ev "^$" > tmp.txt
-		cat tmp.txt > $file
-                shift ;;
+		shift ;;
 		-m) param="$2"
 		shift ;;
                 -o) o_file="$2"
